@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Yahoo</title>
+</head>
+<body>
+    
+    <section>
+        
+        <header class="center">
+            
+            <div>
+                <label for=""><a href="">Sobre</a></label>
+                <label for=""><a href="">Loja</a></label>
+            </div>
+            
+            <div>
+                <label for=""><a href="">Gmail</a></label>
+                <label for=""><a href="">Imagens</a></label>
+            </div>
+        </header>
+        
+        
+        <section class="conteiner"> 
+            <section>
+                
+                <div class="main">
+                    <img src="https://logodownload.org/wp-content/uploads/2019/09/yahoo-logo.png" alt="" id="logo-do-yahoo">
+                </div>
+                
+                <div class="main">
+                    <input type="text" id="">
+                </div>
+                <br>
+                
+                <div class="main">
+                    <button>Pesquisa no yahoo</button>
+                    <label for="">⠀</label>
+                    <button>Estou com Sorte</button>
+                </div>
+            </section>
+        </section>
+        
+        
+        <footer class="center">
+            
+            <div class="left">
+                <label for=""><a href="">Anúncio</a></label>
+                <label for=""><a href="">Negócios</a></label>
+            </div>
+            
+            <div class="right">
+                <label for=""><a href="">Privacidade</a></label>
+                <label for=""><a href="">Termos</a></label>
+                <label for=""><a href="">Configurações</a></label>
+            </div>
+        </footer>
+    </section>
+</body>
+<style>
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .conteiner {
+        height: 92vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-do-yahoo {
+        cursor: auto;
+        width: 350px;
+        padding: 20px;
+    }
+
+    input,
+    input:focus {
+        color: purple;
+        font-size: medium;
+        width: 650px;
+        height: 50px;
+        border-radius: 100px;
+        border: solid 1px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    button {
+        cursor: pointer;
+        width: 150px;
+        height: 40px;
+        border-radius: 3px;
+        background-color: whitesmoke;
+        color: purple;
+        border: 0;
+    }
+
+    footer label {
+        padding: 10px;
+    }
+    
+    header label {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+    }
+
+    header,
+    footer {
+        position: absolute;
+        width: 100%;
+        height: 7vh;
+        color: purple; 
+    }
+
+    footer {
+        background: whitesmoke;
+        bottom: 0; 
+        display: inline-block;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header {
+        height: 5vh; 
+    }
+
+    a {
+        text-decoration: none;
+        color: purple;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    button:hover {
+        border-color: purple;
+        border: solid 1px;
+    }
+
+    input:hover,
+    input:focus {
+        background-color: whitesmoke;
+    }
+
+    .center {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    </style>
+    </html>
